@@ -1,0 +1,108 @@
+{
+    "name": "eefje",
+    "age": 99,
+    "visitedCountries": [
+        {
+            "country": "Tanzania",
+            "recommendations": ["", "", ""],
+            "rating": 5,
+            "experience": "blablabla",
+            "imgUrl": ""
+        },
+        {
+            "country": "Cuba",
+            "recommendations": ["", "", ""],
+            "rating": 5,
+            "experience": "blablabla",
+            "imgUrl": ""
+        },
+        {
+            "country": "Jamaica",
+            "recommendations": ["", "", ""],
+            "rating": 4,
+            "experience": "blablabla",
+            "imgUrl": ""
+        },
+        {
+            "country": "Norway",
+            "recommendations": ["", "", ""],
+            "rating": 4,
+            "experience": "blablabla",
+            "imgUrl": ""
+        },
+        {
+            "country": "Croatia",
+            "recommendations": ["", "", ""],
+            "rating": 5,
+            "experience": "blablabla",
+            "imgUrl": ""
+        },
+        {
+            "country": "England",
+            "recommendations": ["", "", ""],
+            "rating": 4,
+            "experience": "blablabla",
+            "imgUrl": ""
+        },
+        {
+            "country": "Spain",
+            "recommendations": ["", "", ""],
+            "rating": 4,
+            "experience": "blablabla",
+            "imgUrl": ""
+        },
+        {
+            "country": "France",
+            "recommendations": ["", "", ""],
+            "rating": 2,
+            "experience": "blablabla",
+            "imgUrl": ""
+        },
+        {
+            "country": "Belgium",
+            "recommendations": ["", "", ""],
+            "rating": 3,
+            "experience": "blablabla",
+            "imgUrl": ""
+        },
+        {
+            "country": "Italy",
+            "recommendations": ["", "", ""],
+            "rating": 3,
+            "experience": "blablabla",
+            "imgUrl": ""
+        },
+        {
+            "country": "Portugal",
+            "recommendations": ["", "", ""],
+            "rating": 5,
+            "experience": "blablabla",
+            "imgUrl": ""
+        },
+        {
+            "country": "Scotland",
+            "recommendations": ["", "", ""],
+            "rating": 2,
+            "experience": "blablabla",
+            "imgUrl": ""
+        },
+        {
+            "country": "Ireland",
+            "recommendations": ["", "", ""],
+            "rating": 3,
+            "experience": "blablabla",
+            "imgUrl": ""
+        }
+
+    ],
+    "bucketList": [
+        {
+            "country": "naam",
+            "reason": "blablabla"
+        },
+        {
+            "country": "naam",
+            "reason": "blablabla"
+        }
+    ]
+}
