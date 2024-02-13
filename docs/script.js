@@ -1,6 +1,4 @@
-const clickCards = document.getElementsByClassName("cardFront");
-// https://www.google.com/search?q=pop+up+maken+bij+click+js&sca_esv=8619b7244523f828&rlz=1C5CHFA_enNL987NL987&sxsrf=ACQVn09iZFncNsFcB0yQN_13arKAX1fswQ%3A1707339295878&ei=H-7DZZaYNeTui-gP2MaRiAs&ved=0ahUKEwjWo_fBjpqEAxVk9wIHHVhjBLEQ4dUDCBA&uact=5&oq=pop+up+maken+bij+click+js&gs_lp=Egxnd3Mtd2l6LXNlcnAiGXBvcCB1cCBtYWtlbiBiaWogY2xpY2sganMyBhAAGBYYHkjuDFDhCFjcC3ACeAGQAQCYAZsCoAG5BKoBBTAuMi4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBRAhGKAB4gMEGAAgQYgGAZAGAg&sclient=gws-wiz-serp#fpstate=ive&vld=cid:dbe79287,vid:AF6vGYIyV8M,st:0
-// pop-up maken met deze link ^
+
 
 fetch("list.json")
     .then((response) => {
