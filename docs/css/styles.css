@@ -1,3 +1,6 @@
+
+/* Algemene styling */
+
 * {
     box-sizing: border-box;
 }
@@ -21,10 +24,6 @@
       }
 }
 
-html{
-    position: relative;
-}
-
 body{
     display: flex;
     justify-content: space-around;
@@ -34,9 +33,45 @@ body{
     background-color: var(--background);
 }
 
+button{
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+    width: 2rem;
+    height: 2rem;
+    border: solid 1px;
+    border-color: var(--buttontext);
+    font-size: 0.8em;
+    color: var(--buttontext);
+    background-color: var(--button);
+    cursor: pointer;
+}
+
+button:active{
+    scale: 0.9;
+}
+
+h1, h2, p{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--text);
+}
+
+h1{
+    font-size: 3rem;
+    margin: 0;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+/* Einde algemene styling */
+
+/* Styling section 1 */
+
 section:nth-of-type(1){
     width: 25vw;
 }
+
+    /* Styling section 1 dialog */
 
 section:nth-of-type(1) dialog{
     border: none;
@@ -61,7 +96,7 @@ dialog[open] {
 
 section:nth-of-type(1) dialog div{
     display: grid;
-    grid-template-columns: 1fr 4rem;
+    grid-template-columns: 1fr 2rem;
     grid-template-rows: 1fr 3rem;
     height: 20vh;
 }
@@ -80,8 +115,6 @@ section:nth-of-type(1) dialog p{
     margin-top: 1rem;
 }
 
-
-
 section:nth-of-type(1) dialog h2{
     font-size: 1.5rem;
     margin: .5rem;
@@ -94,10 +127,6 @@ section:nth-of-type(1) dialog p, section:nth-of-type(1) dialog ul li{
     margin: 0.5rem
 }
 
-section:nth-of-type(1) dialog button{
-    width: 4rem;
-}
-
 section:nth-of-type(1) dialog button img{
     width: 1rem
 }
@@ -106,19 +135,13 @@ section:nth-of-type(1) dialog::backdrop{
     backdrop-filter: blur(3px);
 }
 
-h1, h2, p{
-    font-family: 'Ubuntu', sans-serif;
-    color: var(--text);
-}
+    /* Styling section 1 dialog */
 
-h1{
-    font-size: 3rem;
-    margin: 0;
-}
+/* Einde styling section 1 */
 
-h2{
-    font-size: 1rem;
-}
+/* Styling section 2 */
+
+    /* Styling section 2 grid layout */
 
 section:nth-of-type(2){
     display: grid;
@@ -217,8 +240,9 @@ section:nth-of-type(2) div:nth-of-type(17){
     grid-column: 7 / 9 ;
 }
 
+    /* Einde styling section 2 grid layout */
 
-/* BRON VAN W3SCHOOLS =          https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card */
+    /* Styling kaarten in grid     gemaakt met:BRON VAN W3SCHOOLS = https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card */
 
 
 .flipCard {
@@ -276,14 +300,6 @@ section:nth-of-type(2) div:nth-of-type(17){
     color: var(--cardText)
   }
 
-  .ratingStars{
-      margin-top: 0.8em;
-  }
-
-
-  /* BRON VAN W3SCHOOLS =          https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card */
-
-  
   .cardFront img{
       height: 100%;
       width: 100%;
@@ -291,37 +307,15 @@ section:nth-of-type(2) div:nth-of-type(17){
       object-fit: cover;
   }
 
-  .ratingStars img{
-      width: 1em
-  }
-
-  .no-rating{
-      display: none;
-  }
-
   .cardBack button{
-    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
-    width: 2rem;
-    height: 2rem;
-    border: solid 1px;
-    border-color: var(--buttontext);
-    font-size: 0.8em;
     margin-top: 0.8em;
-    color: var(--buttontext);
-    background-color: var(--button);
     position: absolute;
     right: -1rem;
     top: -1rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    cursor: pointer;
   }
 
   .cardBack button img{
       width: 0.8rem
-  }
-
-  .cardBack button:active{
-      scale: 0.9;
   }
 
   .cardBack div:nth-of-type(2){
@@ -332,10 +326,25 @@ section:nth-of-type(2) div:nth-of-type(17){
       height: 100
   }
 
+            /* Styling van rating sterretjes in de kaarten */
 
-  /* HEEEEEEEL VEEL VRAAGTEKENS!!! Ik heb een class toegevoegd aan .cardBack div:nth-of-type(2) namelijk .showPopUp en je kan in de inspector zien dat de class erop wordt gezet als je op de button klikt
-  maar de background-color veranderd niet van kleur, wat doe ik verkeerd? */
+            .ratingStars{
+                margin-top: 0.8em;
+            }
+
+            .ratingStars img{
+                width: 1em
+            }
+
+            .no-rating{
+                display: none;
+            }
+
+            /* Einde styling van rating sterretjes in de kaarten */
+
+/* Einde styling kaarten in grid */
   
+/* Mediaquery voor tablet en kleine laptop */
 
   @media screen and (max-width: 1071px) {
     section:nth-of-type(2){
@@ -349,6 +358,10 @@ section:nth-of-type(2) div:nth-of-type(17){
         font-size: 0.8rem;
     }
   }
+
+/* Einde mediaquery voor tablet en kleine laptop */
+
+/* Mediaquery voor mobile */
 
   @media screen and (max-width: 912px){
       body{
@@ -369,7 +382,7 @@ section:nth-of-type(2) div:nth-of-type(17){
         height: 500vw;
         padding: 2em;
         margin: 0;
-        /* aspect-ratio: 1 / 8 ; */
+        /* aspect-ratio: 1 / 8 ;  wilde ik voor height gebtuiken, maar dit werkte niet. */
     }
     
 /* styling van het grid op mobile. Ik heb een heel ander grid moeten uitrekenen om het werkend te krijgen. */
@@ -459,4 +472,6 @@ section:nth-of-type(2) div:nth-of-type(17){
         grid-column: 3 / 5 ;
     }
   }
+
+/* Einde mediaquery voor mobile */
 
