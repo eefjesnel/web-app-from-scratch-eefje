@@ -1,5 +1,6 @@
 {
-    "name": "Eefje",
+    "firstName": "Eefje",
+    "lastName": "Snel",
     "dateOfBirth": {
         "year": 2002,
         "month": 7,
@@ -8,17 +9,17 @@
     "visitedCountries": [
         {
             "country": "Tanzania",
-            "recommendations": ["All safaries were amazing but the Serengeti safari was for me the absolute best.", "If you want to go to Zanzibar aswell, you might want to check out Cheetah Rock, a completely cruelty free safe haven for endangered species.", "In Tanzania we also visited a local tribe, where they showed us their way of living, it was beautiful to see."],
+            "recommendations": ["All safaries were amazing but the Serengeti safari was for me the absolute best.", "In Tanzania we also visited a local tribe, where they showed us their way of living, it was beautiful to see.", "If you want to go to Zanzibar aswell, you might want to check out Cheetah Rock, a completely cruelty free safe haven for endangered species."],
             "rating": 5,
-            "experience": "The people here are very kind and also proud of their country. I felt not only welcome, but wanted.",
+            "experience": "Tanzania was by far one of my favorite holidays! The people are very kind and proud of their country and they love it when you show interest in their work and lives. I started learning a bit of Swahili so I could surprise them by speaking in their own language. The smile that appeared on their faces was more than worth learning the language! I felt very welcome and they even made me feel wanted :)",
             "imgUrl": "images/tanzania.jpg",
             "imgAlt": "picture of a jeep in the Serengeti with elephants"
         },
         {
             "country": "Cuba",
-            "recommendations": ["I started of my trip in Havana, a lively and with that a messy city.", "I also visited Vinales, a valey where the villagers showed me how to make and smoke a sigar.", "Last, but not least, I went to Trinidad, here you can experience communisme at it's worst and at it's best."],
+            "recommendations": ["I started of my trip in Havana, a lively and with that a messy city.", "I also visited Vinales, a valey where the villagers showed me how to make and smoke a sigar.", "Last, but not least, I went to Trinidad, here you can experience communism at it's worst and at it's best."],
             "rating": 5,
-            "experience": "My overall experience was really great. It was amazing to almost go back in time there.",
+            "experience": "Cuba is a magical place! It feels like you're going back in time visiting this country. The old american cars belong to the rich and the horses belong to the poor. It seems like the communism turned the world in Cuba upsidedown. The people are content with what they have and they seem to live with a free spirit.",
             "imgUrl": "images/cuba.jpg",
             "imgAlt": "picture of downtown Havana"
         },
@@ -26,7 +27,7 @@
             "country": "Jamaica",
             "recommendations": ["Jamaica has amazing nature, really green and it just feels fresh.", "If you want to do something a little more adentures, you can climb the Dun River Falls.", "Something a lot of people love to see is het blue lagoon, a beautiful light blue beach with a bar serving cold beer."],
             "rating": 4,
-            "experience": "Jamaica is a country full of culture and music. The living circumstances however are not ideal so people can be a bit hostile towards tourists.",
+            "experience": "Jamaica is a beautiful green and vibrant country, but there is another side of the country most tourist do not inticipate on: the wealth is extremely divited which causes some anger and violence. This is mostly in the capitol, Kingston, which can better be avoided for that very reason. Otherwise Jamaica has a lot to offer; music, culture and beautiful nature. So if you avoid Kingston and focus on the peaceful side of Jamaica, you might just find a paradise you would want to stay forever.",
             "imgUrl": "images/jamaica.jpg",
             "imgAlt": "picture of a road with palmtrees"
         },
@@ -34,7 +35,7 @@
             "country": "Norway",
             "recommendations": ["Norway is a great country for hiking and with the best view.", "Going on a little ferry through the fjords is breathtaking.", "If you go far enough north, you might be able to see the northern lights!"],
             "rating": 4,
-            "experience": "Norway is a beautiful country, ",
+            "experience": "Norway, the country known for it's gods and it's amazing fjords. ",
             "imgUrl": "images/norway.jpg",
             "imgAlt": "picture of a fjord with a village at the foot"
         },
