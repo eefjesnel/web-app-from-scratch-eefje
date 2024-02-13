@@ -1,108 +1,141 @@
 {
-    "name": "eefje",
-    "age": 99,
+    "name": "Eefje",
+    "dateOfBirth": {
+        "year": 2002,
+        "month": 7,
+        "day": 11
+    },
     "visitedCountries": [
         {
             "country": "Tanzania",
-            "recommendations": ["", "", ""],
+            "recommendations": ["All safaries were amazing but the Serengeti safari was for me the absolute best.", "If you want to go to Zanzibar aswell, you might want to check out Cheetah Rock, a completely cruelty free safe haven for endangered species.", "In Tanzania we also visited a local tribe, where they showed us their way of living, it was beautiful to see."],
             "rating": 5,
-            "experience": "blablabla",
-            "imgUrl": ""
+            "experience": "The people here are very kind and also proud of their country. I felt not only welcome, but wanted.",
+            "imgUrl": "images/tanzania.jpg",
+            "imgAlt": "picture of a jeep in the Serengeti with elephants"
         },
         {
             "country": "Cuba",
-            "recommendations": ["", "", ""],
+            "recommendations": ["I started of my trip in Havana, a lively and with that a messy city.", "I also visited Vinales, a valey where the villagers showed me how to make and smoke a sigar.", "Last, but not least, I went to Trinidad, here you can experience communisme at it's worst and at it's best."],
             "rating": 5,
-            "experience": "blablabla",
-            "imgUrl": ""
+            "experience": "My overall experience was really great. It was amazing to almost go back in time there.",
+            "imgUrl": "images/cuba.jpg",
+            "imgAlt": "picture of downtown Havana"
         },
         {
             "country": "Jamaica",
-            "recommendations": ["", "", ""],
+            "recommendations": ["Jamaica has amazing nature, really green and it just feels fresh.", "If you want to do something a little more adentures, you can climb the Dun River Falls.", "Something a lot of people love to see is het blue lagoon, a beautiful light blue beach with a bar serving cold beer."],
             "rating": 4,
-            "experience": "blablabla",
-            "imgUrl": ""
+            "experience": "Jamaica is a country full of culture and music. The living circumstances however are not ideal so people can be a bit hostile towards tourists.",
+            "imgUrl": "images/jamaica.jpg",
+            "imgAlt": "picture of a road with palmtrees"
         },
         {
             "country": "Norway",
-            "recommendations": ["", "", ""],
+            "recommendations": ["Norway is a great country for hiking and with the best view.", "Going on a little ferry through the fjords is breathtaking.", "If you go far enough north, you might be able to see the northern lights!"],
             "rating": 4,
-            "experience": "blablabla",
-            "imgUrl": ""
+            "experience": "Norway is a beautiful country, ",
+            "imgUrl": "images/norway.jpg",
+            "imgAlt": "picture of a fjord with a village at the foot"
         },
         {
             "country": "Croatia",
             "recommendations": ["", "", ""],
             "rating": 5,
             "experience": "blablabla",
-            "imgUrl": ""
+            "imgUrl": "images/croatia.jpg",
+            "imgAlt": "picture of Spit, a white city"
         },
         {
             "country": "England",
             "recommendations": ["", "", ""],
             "rating": 4,
             "experience": "blablabla",
-            "imgUrl": ""
+            "imgUrl": "images/england.jpg",
+            "imgAlt": "picture of London, shot from a drone"
         },
         {
             "country": "Spain",
             "recommendations": ["", "", ""],
             "rating": 4,
             "experience": "blablabla",
-            "imgUrl": ""
+            "imgUrl": "images/spain.jpg",
+            "imgAlt": "picture of a building made by Gaudi"
         },
         {
             "country": "France",
             "recommendations": ["", "", ""],
             "rating": 2,
             "experience": "blablabla",
-            "imgUrl": ""
+            "imgUrl": "images/france.jpg",
+            "imgAlt": "picture of the Eiffel tower"
         },
         {
             "country": "Belgium",
             "recommendations": ["", "", ""],
             "rating": 3,
             "experience": "blablabla",
-            "imgUrl": ""
+            "imgUrl": "images/belgium.jpg",
+            "imgAlt": "picture of old architecture at the river"
         },
         {
             "country": "Italy",
             "recommendations": ["", "", ""],
             "rating": 3,
             "experience": "blablabla",
-            "imgUrl": ""
+            "imgUrl": "images/italy.jpg",
+            "imgAlt": "picture of Venice"
         },
         {
             "country": "Portugal",
             "recommendations": ["", "", ""],
             "rating": 5,
             "experience": "blablabla",
-            "imgUrl": ""
+            "imgUrl": "images/portugal.jpg",
+            "imgAlt": "picture of Porto, a bridge over a river"
         },
         {
             "country": "Scotland",
             "recommendations": ["", "", ""],
             "rating": 2,
             "experience": "blablabla",
-            "imgUrl": ""
+            "imgUrl": "images/scotland.jpg",
+            "imgAlt": "picture of a european bizon on a rocky hill"
         },
         {
             "country": "Ireland",
             "recommendations": ["", "", ""],
             "rating": 3,
             "experience": "blablabla",
-            "imgUrl": ""
+            "imgUrl": "images/ireland.jpg",
+            "imgAlt": "picture of green clifs at the coast of Ireland"
         }
 
     ],
     "bucketList": [
         {
-            "country": "naam",
-            "reason": "blablabla"
+            "country": "Peru",
+            "reason": "blablabla",
+            "imgUrl": "images/peru.jpg",
+            "imgAlt": "picture of machu pichu"
         },
         {
-            "country": "naam",
-            "reason": "blablabla"
+            "country": "Chile",
+            "reason": "blablabla",
+            "imgUrl": "images/chile.jpg",
+            "imgAlt": "picture of horses with mountains in the distance"
+        },
+        {
+            "country": "South Africa",
+            "reason": "blablabla",
+            "imgUrl": "images/south-africa.jpg",
+            "imgAlt": "picture of rainforest"
+        },
+        {
+            "country": "Sri Lanka",
+            "reason": "blablabla",
+            "imgUrl": "images/sri-lanka.jpg",
+            "imgAlt": "picture of trainride through nature"
         }
     ]
 }
