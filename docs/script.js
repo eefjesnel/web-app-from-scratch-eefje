@@ -49,7 +49,11 @@ const dataOphalen = (response) => {
                 const dialogText = document.querySelector("section:nth-of-type(1) dialog p");
                 dialogText.textContent = foundCountry.experience;
                 const dialogRecommendations = document.querySelector("section:nth-of-type(1) dialog ul");
-                dialogRecommendations.textContent = foundCountry.recommendations;
+                foundCountry.recommendations.forEach((recommendation)=>{
+                    const li = document.createElement("li")
+                    li.textContent = recommendation
+                    dialogRecommendations.append(li)
+                })
                 popUpElement.showModal();
                 console.log(foundCountry);
                 console.log("hier komt de popup");
