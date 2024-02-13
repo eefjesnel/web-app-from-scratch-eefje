@@ -47,13 +47,21 @@ const dataOphalen = (response) => {
                 const headingElement = document.querySelector("section:nth-of-type(1) dialog h2");
                 headingElement.textContent = foundCountry.country;
                 const dialogText = document.querySelector("section:nth-of-type(1) dialog p");
-                dialogText.textContent = foundCountry.experience;
+                if (foundCountry.experience){
+                    dialogText.textContent = foundCountry.experience;
+                }
+                else{
+                    dialogText.textContent = foundCountry.reason;
+                }
                 const dialogRecommendations = document.querySelector("section:nth-of-type(1) dialog ul");
-                foundCountry.recommendations.forEach((recommendation)=>{
-                    const li = document.createElement("li")
-                    li.textContent = recommendation
-                    dialogRecommendations.append(li)
-                })
+                dialogRecommendations.innerHTML = ""
+                if (foundCountry.recommendations){
+                    foundCountry.recommendations.forEach((recommendation)=>{
+                        const li = document.createElement("li")
+                        li.textContent = recommendation
+                        dialogRecommendations.append(li)
+                    })
+                }
                 popUpElement.showModal();
                 console.log(foundCountry);
                 console.log("hier komt de popup");
