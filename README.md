@@ -51,7 +51,9 @@ TBA
 ## Week 1, maandag 05-02-2024
 Maandag begonnen we WAFS met met een uitleg over de opdracht. Ik moet eerlijk zeggen dat ik behoorlijk schrok van de hoeveelheid werk dat we moesten doen in een korte tijd. Ik benoemde mezelf een junior omdat ik vrij weinig weet van javascript en alles daarom heen. Als junior werd ik met Jop in een team gezet en daarbij kwamen Joppe en Lynn, twee mediums. Samen gingen we kijken wat onze interesses waren en waar onze verschillen lagen. We kwamen op het thema reizen en begonnen aan een leuk idee voor onze team-app. We maakten een lijst van alle data die we nodig hadden voor de team-app en dus ook welke data we in onze persoonlijke app moesten verwerken. Ik begon met wat schetsjes en ik besloot al snel om een leuk, maar simpel design te maken om een beetje op te maken voor mijn gebrek aan kennis op tech gebied.
 
-![Design van de app](docs/images/design-schets)
+<img scr="images/design-schets" alt="Design van de app">
+
+
 ![grid uitgeschetst voor desktop](docs/images/grid-desktop)
 ![grid uitgeschetst voor mobile](docs/images/grid-mobile)
 
