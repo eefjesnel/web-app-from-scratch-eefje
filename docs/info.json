@@ -1,11 +1,11 @@
 {
     "firstName": "Eefje",
     "lastName": "Snel",
-    "avatar_url": "",
+    "avatar_url": "images/avatar.svg",
     "age": 21,
     "city": "Haarlem",
     "hobbies": ["Music", "Painting", "Drawing"],
-    "truthsAndLies": ["", "", ""],
+    "truthsAndLies": ["I was the 2019 youth kickboxing champion for women between 16 and 18.", "I went to croatia and was invited to a boatparty with the son of the richest family in the country.", "When I went to Tanzania, my father was offered 300 cows for my hand in marriage."],
     "bio": "",
-    "favouritsAnimal": ""
+    "favouriteAnimal": "Cheetah"
 }

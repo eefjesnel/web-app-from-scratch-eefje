@@ -63,6 +63,11 @@ h2{
     font-size: 1rem;
 }
 
+p{
+    font-size: .7em;
+    font-weight: 100;
+}
+
 /* Einde algemene styling */
 
 /* Styling section 1 */
@@ -128,7 +133,7 @@ section:nth-of-type(1) dialog p, section:nth-of-type(1) dialog ul li{
 }
 
 section:nth-of-type(1) dialog button img{
-    width: 1rem
+    width: 1rem;
 }
 
 section:nth-of-type(1) dialog::backdrop{
@@ -145,13 +150,12 @@ section:nth-of-type(1) dialog::backdrop{
 
 section:nth-of-type(2){
     display: grid;
-    grid-template-rows: repeat(12, 1fr );
+    grid-template-rows: repeat(12, 1fr);
     grid-template-columns: repeat(12, 1fr);
     gap: 5px;
     width: 50rem;
     height: 40rem;
     margin: 1em;
-    grid-auto-flow: dense;
 }
 
 section:nth-of-type(2) div:nth-of-type(1){
@@ -297,7 +301,7 @@ section:nth-of-type(2) div:nth-of-type(17){
 
   .cardBack h2{
     margin: 0;
-    color: var(--cardText)
+    color: var(--cardText);
   }
 
   .cardFront img{
@@ -323,7 +327,7 @@ section:nth-of-type(2) div:nth-of-type(17){
       padding: 1em;
       position: absolute;
       width: 25vw;
-      height: 100
+      height: 100;
   }
 
             /* Styling van rating sterretjes in de kaarten */
@@ -375,19 +379,18 @@ section:nth-of-type(2) div:nth-of-type(17){
         margin: 2rem 0 2rem 2rem;
       }
       section:nth-of-type(1) dialog{
-          width: 100vw
+          width: 100vw;
       }
       section:nth-of-type(2){
         grid-template-rows: repeat(35, 1fr );
         grid-template-columns: repeat(4, 1fr);
         width: 100vw;
-        height: 500vw;
         padding: 2em;
         margin: 0;
         /* aspect-ratio: 1 / 8 ;  wilde ik voor height gebtuiken, maar dit werkte niet. */
     }
     .ratingStars img{
-        width: 1.3em
+        width: 1.3em;
     }
     
 /* styling van het grid op mobile. Ik heb een heel ander grid moeten uitrekenen om het werkend te krijgen. */

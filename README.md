@@ -99,6 +99,12 @@ Ik begrijp wat hier staat, dus ik zou verwachten dat hier de error melding in de
 ## Week 2, maandag 12-02-2024
 Maandag kwamen we allemaal naar school om te werken aan de team-app en onze persoonlijke app. 
 
+## Week 2, dinsdag 12-02-2024
+
+
+
+
+
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
 <!-- ☝️ replace this description with a description of your own work -->
