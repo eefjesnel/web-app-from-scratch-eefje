@@ -49,7 +49,7 @@
         },
         {
             "country": "England",
-            "recommendations": ["If you are a fan of Harry Potter, you might like to check out the Warner Bros studios. It was truly magical ;)", "London at chrismas time is really cosy and this city is lit beautifully in the winter.", "If you are thinkin about ordering an iced tea, expect english tea in iced water. "],
+            "recommendations": ["If you are a fan of Harry Potter, you might want to check out the Warner Bros studios. It was truly magical ;)", "London at chrismas time is really cosy and this city is lit beautifully in the winter.", "If you are thinkin about ordering an iced tea, expect english tea in iced water. "],
             "rating": 4,
             "experience": "I went to England only for a long weekend and I had the time of my life. We actually never left London but I'd love to see more of England later on. London was amazing, we went in the winter, so there was snow everywhere and the christmas spirit was up. We had so much to do and we had a blast, me and my mom. ",
             "imgUrl": "images/england.jpg",
@@ -108,6 +108,14 @@
             "recommendations": ["Dublin is the best place to shop and get a nice hot tea during the rain.", "Dublin also has a large and beautiful library that is worth seeing."],
             "rating": 3,
             "experience": "I went to Ireland with my family and friends and we had neighboring cabins. We would play cards together and go to the campingdiner to get us some supper. It was real cosy and fun but we didn't get to see much of the country because of constant rain.",
+            "imgUrl": "images/ireland.jpg",
+            "imgAlt": "picture of green clifs at the coast of Ireland"
+        },
+        {
+            "country": "United Kingdom",
+            "recommendations": ["If you are a fan of Harry Potter, you might want to check out the Warner Bros studios. It was truly magical ;)", "We went to the highland games and it was really truly amazing! Everyone is joyfull and cheering, it is great fun.", "London at chrismas time is really cosy and this city is lit beautifully in the winter."],
+            "rating": 4,
+            "experience": "I went to both Scotland and England with my family, sadly we all got sick the moment we got of the ferry.",
             "imgUrl": "images/ireland.jpg",
             "imgAlt": "picture of green clifs at the coast of Ireland"
         }
