@@ -47,11 +47,13 @@ TBA
 
 [//]: # (|            | *Project* - your app is working and published on GitHub Pages. Your project is thoroughly documented in the `README.md` file in your repository.                                       |             |)
 
-## Procesverslag
+# Procesverslag
 ## Week 1, maandag 05-02-2024
 Maandag begonnen we WAFS met met een uitleg over de opdracht. Ik moet eerlijk zeggen dat ik behoorlijk schrok van de hoeveelheid werk dat we moesten doen in een korte tijd. Ik benoemde mezelf een junior omdat ik vrij weinig weet van javascript en alles daarom heen. Als junior werd ik met Jop in een team gezet en daarbij kwamen Joppe en Lynn, twee mediums. Samen gingen we kijken wat onze interesses waren en waar onze verschillen lagen. We kwamen op het thema reizen en begonnen aan een leuk idee voor onze team-app. We maakten een lijst van alle data die we nodig hadden voor de team-app en dus ook welke data we in onze persoonlijke app moesten verwerken. Ik begon met wat schetsjes en ik besloot al snel om een leuk, maar simpel design te maken om een beetje op te maken voor mijn gebrek aan kennis op tech gebied.
 
-(schets van ontwerp)
+![Design van de app](/docs/images/design-schets)
+![grid uitgeschetst voor desktop](/docs/images/grid-desktop)
+![grid uitgeschetst voor mobile](/docs/images/grid-mobile)
 
 ## Week 1, dinsdag 06-02-2024
 Dinsdag begon ik met het opstellen van mijn persoonlijke app. Een beetje html en een leuk grid ontwerpen. Ook een flip card systeem opgezocht en die werkzaam gemaakt in mijn code.
@@ -90,32 +92,38 @@ if (popupButton && popUpElement) {
 
 Ik begrijp wat hier staat, dus ik zou verwachten dat hier de error melding in de console zou verschijnen. Maar niets was minder waar. Dit begrijp ik niet, waarom zou mijn stukje code dan niet werken als popupButton en popUpElement er dus beide wel zijn? (zie gesprek met chatGPT hieronder, het is nogal rommelig.)
 
-(screenshot van foutmelding en mijn code.)
+![foutmelding in de console](/docs/images/foutmelding)
 
 2. Mijn tweede grote probleem was dat mijn styling niet mee wil werken. Ik had met javascript een class gezet op een element bij het klikken van een button. In de inspector kan ik zien dat de class inderdaad op het element wordt gezet, maar wanneer ik die class in CSS probeer te stylen, doet sommige styling het wel en andere niet. Background-color en visibility bijvoorbeeld doen het niet, maar borderradius doet het wel. Error niet in de console, maar in mijn hoofd. 
 
-(screenshot van styling die mis gaat in de inspector.)
+![problemen met mijn javascript en css](/docs/images/probleem-met-function-en-foutmelding)
 
 ## Week 2, maandag 12-02-2024
-Maandag kwamen we allemaal naar school om te werken aan de team-app en onze persoonlijke app. 
+Maandag kwamen we allemaal naar school om te werken aan de team-app en onze persoonlijke app. Jop heeft me maandag geholpen met de problemen die ik tegen kwam op zondag. Door het in een dialog te zetten en de code daar in op te halen, waren meteen al mijn problemen opgelost. Verder heb ik deze dag nog veel styling gedaan.
 
 ## Week 2, dinsdag 12-02-2024
+Dinsdag was de dag dat ik had geprobeerd mijn persoonlijke app zo goed als af te maken, zodat ik woensdag de hele dag aan de styling van de team app zou kunnen werken. Ik heb dus dinsdag voornamelijk mijn code opgeschoond en een aantal tests gedaan. Accecebility van mijn app is niet al te best door de flipcards die geen focus willen krijgen met tab. Ik kreeg dit niet zelf voor elkaar om toch te regelen. Contrast test waren goed en ook op mobiel werkt alles prima. 
 
+## Week 2, woensdag 12-02-2024
+Woensdag stond voor mij in het teken van de team app. Ik heb de sidebar gestyled en alles responsive gemaakt. Verder hebben we samen nog wat bugs opgelost.
 
+# Description of my work
+Mijn app is een leuke weergave van mijn vakantie bestemmingen en welke landen er nog op mijn bucketlist staan. Je kan een klein stukje lezen over elk land.
 
+# Posterimage of my work
+![homepage van mijn app](/docs/images/posterimage)
 
+# Table of contents
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+# How to install
 
-<!-- ☝️ replace this description with a description of your own work -->
+# Features
 
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
+# External data source: json
 
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
+# checklist
 
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
+# License
 
 <!-- ...but how does one use this project? What are its features 🤔 -->
 
@@ -129,7 +137,7 @@ Maandag kwamen we allemaal naar school om te werken aan de team-app en onze pers
 
 
 
-chatGPT conversation
+## chatGPT conversation
 
 User
 hi hi
