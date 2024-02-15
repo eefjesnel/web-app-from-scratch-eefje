@@ -1,77 +1,29 @@
 # Web App From Scratch @cmda-minor-web 2023 - 2024
+                                      |             |)
 
-In dit vak gaan we een web applicatie bouwen en leren hoe deze werken door zo min mogelijk libraries, frameworks of
-andere bronnen te importen (vanilla) en zoveel mogelijk het browser platform te gebruiken door middel van HTML, CSS &
-JavaScript.    
-Het eindresultaat is een modulaire, single page web app (SPA), beoordeeld op jouw niveau en eigen leerdoelen.    
-De bedoeling is om een web app te bouwen die data ophaalt van een externe API, deze manipuleert om te tonen in de UI van
-de App, hoe abstract dan ook.
-Je gaat bekende patterns leren toe passen bij het bouwen en testen van de applicatie voor een eigen "WebSite" en een
-gezamenlijke "Team App".
-Nog nooit heb je zo snel kunnen prototypen als nadat je hebt leren werken met de browser en haar talen.
-Daarnaast zal je tijdloze kennis opdoen over het de aard en het gebruik van data, datastructuren, algoritmes, libraries,
-frameworks en de werking van het web.
-
-## Assignment
-1. Bouw je eigen SPA/WebSite met externe data van een API, minimaal 1 micro interactie.
-2. Een TeamApp met een verzameling van alle losse websites van je teamleden
-
----
-
-## Program
-
-| Planning | Maandag               | Dinsdag                | Woensdag                           | Donderdag                   | Vrijdag                                   |
-|----------|-----------------------|------------------------|------------------------------------|-----------------------------|-------------------------------------------|
-|          | Kick-Off, Dev WebSite | Dev TeamApp, Workshops | Dev *, Weekly nerd                 | Dev *, Workshops            | Code review, Voortgangsgesprekken, Dev *  |
-|          | Dev *, Workshops      | College + Workshops    | Dev *, Weekly nerd, Deadline 23:59 | Mondeling, Weekly Nerd Blog | Reparatiegesprekken, Afsluiting, 🍻 Fest? |
-
-## Rubric
-
-Je inzet wordt beoordeeld met behulp van de rubric (zie hieronder). Je moet het criterium (middenkolom) behalen om het
-vak te voltooien.
-Tijdens de toets wordt je mondeling overhoord en krijg je feedback over dingen die we denken dat tekort schieten en dingen die
-we denken dat een verbetering zijn op het criterium.
-
-TBA
-
-[//]: # ()
-[//]: # (| Deficiency | Criterion                                                                                                                                                                              | Improvement |)
-
-[//]: # (|:-----------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------|)
-
-[//]: # (|            | *User Interface* - you design, build and test the user interface by applying interface design principles                                                                               |             |)
-
-[//]: # (|            | *Code structure* - you write modular, consistent and efficient HTML, CSS and JavaScript code by applying structure and best practices. You manage state for the application and the UI |             |)
-
-[//]: # (|            | *Data management* - you understand how you can work with an external API using asynchronous code. You can retrieve data, manipulate and dynamically convert it to structured html      |             |)
-
-[//]: # (|            | *Project* - your app is working and published on GitHub Pages. Your project is thoroughly documented in the `README.md` file in your repository.                                       |             |)
-
-# Procesverslag
+## Procesverslag
 ## Week 1, maandag 05-02-2024
 Maandag begonnen we WAFS met met een uitleg over de opdracht. Ik moet eerlijk zeggen dat ik behoorlijk schrok van de hoeveelheid werk dat we moesten doen in een korte tijd. Ik benoemde mezelf een junior omdat ik vrij weinig weet van javascript en alles daarom heen. Als junior werd ik met Jop in een team gezet en daarbij kwamen Joppe en Lynn, twee mediums. Samen gingen we kijken wat onze interesses waren en waar onze verschillen lagen. We kwamen op het thema reizen en begonnen aan een leuk idee voor onze team-app. We maakten een lijst van alle data die we nodig hadden voor de team-app en dus ook welke data we in onze persoonlijke app moesten verwerken. Ik begon met wat schetsjes en ik besloot al snel om een leuk, maar simpel design te maken om een beetje op te maken voor mijn gebrek aan kennis op tech gebied.
 
 
 
-![Design van de app](images/design-schets.png)
-![grid uitgeschetst voor desktop](images/grid-desktop.png)
-![grid uitgeschetst voor mobile](images/grid-mobile.png)
+![Design van de app](/images/design-schets.png)
+![grid uitgeschetst voor desktop](/images/grid-desktop.png)
+![grid uitgeschetst voor mobile](/images/grid-mobile.png)
 
-## Week 1, dinsdag 06-02-2024
+### Week 1, dinsdag 06-02-2024
 Dinsdag begon ik met het opstellen van mijn persoonlijke app. Een beetje html en een leuk grid ontwerpen. Ook een flip card systeem opgezocht en die werkzaam gemaakt in mijn code.
 
-## Week 1, woensdag 07-02-2024
+### Week 1, woensdag 07-02-2024
 Woensdag stond in het teken van responsiveness. Het duurde me een eeuwigheid om het grid van desktop naar mobile om te bouwen. Uiterraad was ik niet mobile first begonnen :( Toch lukte het na een tijdje gelukkig. Samen met Joppe had ik data kunnen ophalen uit mijn json bestand. Ik vond dat echt heel erg lastig en moest telkens vragen waarom ik iets moest doen of op die manier moest verwoorden.
 
-(foto van struggles met javascript.)
-
-## Week 1, donderdag 08-02-2024
+### Week 1, donderdag 08-02-2024
 Donderdag werd ik helaas ziek wakker en kon ik niet naar school komen. We besloten om samen een teams call te doen om de team-app te bespreken. Hierin hebben we een ontwerp bedacht voor de app en is Lynn die netjes gaan uitwerken.
 
-## Week 1, vrijdag 09-02-2024
+### Week 1, vrijdag 09-02-2024
 Vrijdag was ik weer op school en heb ik nog verder gewerkt aan de states van mijn design en begon ik met het maken van een pop-up wanneer je op een button op een kaartje zou klikken. Hier ging ik in mijn eentje werken aan de script, ik moet eerlijk bekennen dat het vrij dramatisch was en ik al snel afhaakte.
 
-## Week 1, zaterdag en zondag 10/11-02-2024
+### Week 1, zaterdag en zondag 10/11-02-2024
 Vrijdag na school sloeg die griep dat ik donderdag had opgelopen pas echt toe, waardoor ik het hele weekend ziek op bed lag. Ik heb zondagavond nog eventjes naar de script gekeken en ik liep tegen behoorlijk wat dingetjes aan:
 1.  Ik wilde een button in mijn kaartelementen klikbaar maken om vervolgens een class op een pop-up element te kunnen zetten. Om de een of andere reden wilde dit stukje code niet werken tot dat ik aan chatGPT vroeg hoe ik dat probleem kon oplossen. chatGPT kwam met een goede oplossing, maar een oplossing die ik totaal niet begreep. Ik had het volgende stukje code geschreven:
 
@@ -94,31 +46,31 @@ if (popupButton && popUpElement) {
 
 Ik begrijp wat hier staat, dus ik zou verwachten dat hier de error melding in de console zou verschijnen. Maar niets was minder waar. Dit begrijp ik niet, waarom zou mijn stukje code dan niet werken als popupButton en popUpElement er dus beide wel zijn? (zie gesprek met chatGPT hieronder, het is nogal rommelig.)
 
-![foutmelding in de console](images/foutmelding.png)
+![foutmelding in de console](/images/foutmelding.png)
 
 2. Mijn tweede grote probleem was dat mijn styling niet mee wil werken. Ik had met javascript een class gezet op een element bij het klikken van een button. In de inspector kan ik zien dat de class inderdaad op het element wordt gezet, maar wanneer ik die class in CSS probeer te stylen, doet sommige styling het wel en andere niet. Background-color en visibility bijvoorbeeld doen het niet, maar borderradius doet het wel. Error niet in de console, maar in mijn hoofd. 
 
-![problemen met mijn javascript en css](images/probleem-met-function-en-foutmelding.png)
+![problemen met mijn javascript en css](/images/probleem-met-function-en-foutmelding.png)
 
-## Week 2, maandag 12-02-2024
+### Week 2, maandag 12-02-2024
 Maandag kwamen we allemaal naar school om te werken aan de team-app en onze persoonlijke app. Jop heeft me maandag geholpen met de problemen die ik tegen kwam op zondag. Door het in een dialog te zetten en de code daar in op te halen, waren meteen al mijn problemen opgelost. Verder heb ik deze dag nog veel styling gedaan.
 
-## Week 2, dinsdag 12-02-2024
+### Week 2, dinsdag 12-02-2024
 Dinsdag was de dag dat ik had geprobeerd mijn persoonlijke app zo goed als af te maken, zodat ik woensdag de hele dag aan de styling van de team app zou kunnen werken. Ik heb dus dinsdag voornamelijk mijn code opgeschoond en een aantal tests gedaan. Accecebility van mijn app is niet al te best door de flipcards die geen focus willen krijgen met tab. Ik kreeg dit niet zelf voor elkaar om toch te regelen. Contrast test waren goed en ook op mobiel werkt alles prima. 
 
-## Week 2, woensdag 12-02-2024
+### Week 2, woensdag 12-02-2024
 Woensdag stond voor mij in het teken van de team app. Ik heb de sidebar gestyled en alles responsive gemaakt. Verder hebben we samen nog wat bugs opgelost.
 
-# Description of my work
+## Description of my work
 Mijn app is een leuke weergave van mijn vakantie bestemmingen en welke landen er nog op mijn bucketlist staan. Je kan een klein stukje lezen over elk land.
 
-# Posterimage of my work
-![homepage van mijn app](images/posterimage.png)
+## Posterimage of my work
+![homepage van mijn app](/images/posterimage.png)
 
-# checklist
+## checklist
 Wat ik graag nog had willen doen was het meer accesible maken. We kregen de dag van de deadline een leuke presentatie over de accesibility en daarna wilde ik heel graag daar verder aan werken, maar daar had ik niet genoeg tijd meer voor.
 
-# License
+## License
 Ik heb op advies van Jop en Joppe een MIT lisence toegevoegd. 
 
 
