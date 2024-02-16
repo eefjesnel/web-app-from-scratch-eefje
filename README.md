@@ -1,15 +1,12 @@
 # Web App From Scratch @cmda-minor-web 2023 - 2024
-                                      |             |)
 
 ## Procesverslag
 ## Week 1, maandag 05-02-2024
 Maandag begonnen we WAFS met met een uitleg over de opdracht. Ik moet eerlijk zeggen dat ik behoorlijk schrok van de hoeveelheid werk dat we moesten doen in een korte tijd. Ik benoemde mezelf een junior omdat ik vrij weinig weet van javascript en alles daarom heen. Als junior werd ik met Jop in een team gezet en daarbij kwamen Joppe en Lynn, twee mediums. Samen gingen we kijken wat onze interesses waren en waar onze verschillen lagen. We kwamen op het thema reizen en begonnen aan een leuk idee voor onze team-app. We maakten een lijst van alle data die we nodig hadden voor de team-app en dus ook welke data we in onze persoonlijke app moesten verwerken. Ik begon met wat schetsjes en ik besloot al snel om een leuk, maar simpel design te maken om een beetje op te maken voor mijn gebrek aan kennis op tech gebied.
 
-
-
-![Design van de app](/images/design-schets.png)
-![grid uitgeschetst voor desktop](/images/grid-desktop.png)
-![grid uitgeschetst voor mobile](/images/grid-mobile.png)
+![Design van de app](docs/images/design-schets.png)
+![grid uitgeschetst voor desktop](docs/images/grid-desktop.png)
+![grid uitgeschetst voor mobile](docs/images/grid-mobile.png)
 
 ### Week 1, dinsdag 06-02-2024
 Dinsdag begon ik met het opstellen van mijn persoonlijke app. Een beetje html en een leuk grid ontwerpen. Ook een flip card systeem opgezocht en die werkzaam gemaakt in mijn code.
@@ -46,11 +43,11 @@ if (popupButton && popUpElement) {
 
 Ik begrijp wat hier staat, dus ik zou verwachten dat hier de error melding in de console zou verschijnen. Maar niets was minder waar. Dit begrijp ik niet, waarom zou mijn stukje code dan niet werken als popupButton en popUpElement er dus beide wel zijn? (zie gesprek met chatGPT hieronder, het is nogal rommelig.)
 
-![foutmelding in de console](/images/foutmelding.png)
+![foutmelding in de console](docs/images/foutmelding.png)
 
 2. Mijn tweede grote probleem was dat mijn styling niet mee wil werken. Ik had met javascript een class gezet op een element bij het klikken van een button. In de inspector kan ik zien dat de class inderdaad op het element wordt gezet, maar wanneer ik die class in CSS probeer te stylen, doet sommige styling het wel en andere niet. Background-color en visibility bijvoorbeeld doen het niet, maar borderradius doet het wel. Error niet in de console, maar in mijn hoofd. 
 
-![problemen met mijn javascript en css](/images/probleem-met-function-en-foutmelding.png)
+![problemen met mijn javascript en css](docs/images/probleem-met-function-en-foutmelding.png)
 
 ### Week 2, maandag 12-02-2024
 Maandag kwamen we allemaal naar school om te werken aan de team-app en onze persoonlijke app. Jop heeft me maandag geholpen met de problemen die ik tegen kwam op zondag. Door het in een dialog te zetten en de code daar in op te halen, waren meteen al mijn problemen opgelost. Verder heb ik deze dag nog veel styling gedaan.
@@ -65,7 +62,17 @@ Woensdag stond voor mij in het teken van de team app. Ik heb de sidebar gestyled
 Mijn app is een leuke weergave van mijn vakantie bestemmingen en welke landen er nog op mijn bucketlist staan. Je kan een klein stukje lezen over elk land.
 
 ## Posterimage of my work
-![homepage van mijn app](/images/posterimage.png)
+![homepage van mijn app](docs/images/posterimage.png)
+
+## features
+Je kan de kaartjes draaien en de actuele rating zien van het land.
+![draaien van kaartjes](docs/images/draaikaart.png)
+Je krijgt een popup in de vorm van een dialog met meer informatie en tips over het land.
+![popup](docs/images/popup.png)
+![code van de popup](docs/images/popupcode.png)
+De app is responsive
+![responsive](docs/images/responsive.png)
+![code voor responsive](docs/images/mobilegridcode.png)
 
 ## checklist
 Wat ik graag nog had willen doen was het meer accesible maken. We kregen de dag van de deadline een leuke presentatie over de accesibility en daarna wilde ik heel graag daar verder aan werken, maar daar had ik niet genoeg tijd meer voor.

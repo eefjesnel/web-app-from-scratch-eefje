@@ -81,13 +81,3 @@ const dataOphalen = (response) => {
     })
 }
 
-        // popupButton.addEventListener("click", () => {
-        //     popUpElement.classList.add("showPopUp");
-        //     console.log("hier komt de popup");
-        // })
-
-
-        // Dit hier vind ik heel raar, ik heb de bovenstaande function zelf geschreven maar ik kreeg een foutmelding over de eventlistener. Toen kwam 
-        // ChatGPT met deze oplossing, maar hier staat toch eigenlijk alleen "als popupButton en popUpElement beide aanwezig zijn, dan moet je de function uitvoeren. 
-        // Anders geeft je een errormelding" Hij geeft nu geen errormelding. Maar wat ik dan niet begrijp is waarom de function het niet meteen al deed. 
-        // popupButton en popUpElement waren dus beide aanwezig toch? Ik begrijp dit echt niet!!
